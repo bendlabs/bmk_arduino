@@ -5,7 +5,7 @@
 		"maintainer": "Bend Labs",
 		"websiteURL": "https://github.com/bendlabs/bmk_arduino",
 		"email": "repo@bendlabs.com",
-		"help:" {
+		"help": {
 			"online": "https://github.com/bendlabs/bmk_arduino/issues"
 		},
 		"platforms": [
@@ -22,7 +22,7 @@
 				"checksum":"SHA-256:c053c99ab4cae9aea00ccd3c323cb83867b379c87098b52874912223a24a891c",
 				"size": "341212",
 				"boards":[
-					{"name" "BMK nRF52"}
+					{"name": "BMK nRF52"}
 				],
 				"toolsDependencies": [
 				{
