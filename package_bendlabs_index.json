@@ -1,29 +1,31 @@
 {
-	"packages": [
-	{
-		"name": "bendlabs",
-		"maintainer": "bendlabs",
-		"websiteURL": "https://github.com/bendlabs/bmk_arduino",
-		"email": "repo@bendlabs.com",
-		"help": {
-			"online": "https://github.com/bendlabs/bmk_arduino/issues"
-		},
-		"platforms": [
-			{
-				"name": "Bendlabs nRF52 Boards",
-				"architecture": "nrf52",
-				"version": "0.8.4",
-				"category": "Contributed",
-				"help":{
-					"online": "http://bendlabs.com"
-				},
-				"url": "https://github.com/bendlabs/nrf52/board_manager/bendlabs-nrf52-0.8.4.zip",
-				"archiveFileName":"bendlabs-nrf52-0.8.4.zip",
-				"checksum":"SHA-256:8211cf8f0932ee0e99ba8d33cce5c2b83f3130df5df9a566a9bf441180cd83d0",
-				"size": "7578660",
-				"boards":[
-					{"name": "BMK nRF52"}
-				],
+  "packages": [
+    {
+      "name": "bendlabs",
+      "maintainer": "bendlabs",
+      "websiteURL": "https://github.com/bendlabs/bmk_arduino",
+      "email": "repo@bendlabs.com",
+      "help": {
+        "online": "https://github.com/bendlabs/bmk_arduino/issues"
+      },
+      "platforms": [
+        {
+          "name": "Bendlabs nRF52 Boards",
+          "architecture": "nrf52",
+          "version": "0.8.4",
+          "category": "Contributed",
+          "help": {
+            "online": "http://bendlabs.com"
+          },
+          "url": "https://github.com/bendlabs/nrf52/board_manager/bendlabs-nrf52-0.8.4.zip",
+          "archiveFileName": "bendlabs-nrf52-0.8.4.zip",
+          "checksum": "SHA-256:8211cf8f0932ee0e99ba8d33cce5c2b83f3130df5df9a566a9bf441180cd83d0",
+          "size": "7578660",
+          "boards": [
+            {
+              "name": "BMK nRF52"
+            }
+          ],
           "toolsDependencies": [
             {
               "packager": "bendlabs",
@@ -36,8 +38,9 @@
               "name": "nrfjprog"
             }
           ]
-		],
-		"tools": [
+        }
+      ],
+      "tools": [
         {
           "systems": [
             {
@@ -105,9 +108,8 @@
           ],
           "name": "nrfjprog",
           "version": "9.4.0"
-        },
+        }
+      ]
     }
-   ]
+  ]
 }
-				
-			
