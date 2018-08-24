@@ -82,7 +82,7 @@
         {
           "category": "contributed",
           "name": "Bendlabs BMK nRF52",
-          "url": "https://github.com/bendlabs/bmk_arduino/blob/master/nrf52/board_manager/bendlabs-nrf52-0.8.4.zip?raw=true",
+          "url": "https://raw.githubusercontent.com/bendlabs/bmk_arduino/master//nrf52/board_manager/bendlabs-nrf52-0.8.4.zip",
           "checksum": "SHA-256:8211cf8f0932ee0e99ba8d33cce5c2b83f3130df5df9a566a9bf441180cd83d0",
           "help": {
             "online": "https://bendlabs.com"
