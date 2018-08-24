@@ -1,45 +1,7 @@
 {
   "packages": [
     {
-      "name": "bendlabs",
-      "maintainer": "bendlabs",
-      "websiteURL": "https://github.com/bendlabs/bmk_arduino",
-      "email": "repo@bendlabs.com",
-      "help": {
-        "online": "https://github.com/bendlabs/bmk_arduino/issues"
-      },
-      "platforms": [
-        {
-          "name": "Bendlabs nRF52 Boards",
-          "architecture": "nrf52",
-          "version": "0.8.4",
-          "category": "Contributed",
-          "help": {
-            "online": "http://bendlabs.com"
-          },
-          "url": "https://github.com/bendlabs/nrf52/board_manager/bendlabs-nrf52-0.8.4.zip",
-          "archiveFileName": "bendlabs-nrf52-0.8.4.zip",
-          "checksum": "SHA-256:8211cf8f0932ee0e99ba8d33cce5c2b83f3130df5df9a566a9bf441180cd83d0",
-          "size": "7578660",
-          "boards": [
-            {
-              "name": "BMK nRF52"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "bendlabs",
-              "version": "5_2-2015q4",
-              "name": "gcc-arm-none-eabi"
-            },
-            {
-              "packager": "bendlabs",
-              "version": "9.4.0",
-              "name": "nrfjprog"
-            }
-          ]
-        }
-      ],
+      "websiteURL": "https://bendlabs.com",
       "tools": [
         {
           "systems": [
@@ -108,6 +70,44 @@
           ],
           "name": "nrfjprog",
           "version": "9.4.0"
+        }
+      ],
+      "name": "bendlabs",
+      "email": "repo@bendlabs.com",
+      "help": {
+        "online": "https://bendlabs.com"
+      },
+      "maintainer": "bendlabs",
+      "platforms": [
+        {
+          "category": "contributed",
+          "name": "Bendlabs BMK nRF52",
+          "url": "https://github.com/bendlabs/nrf52/board_manager/bendlabs-nrf52-0.8.4.zip",
+          "checksum": "SHA-256:8211cf8f0932ee0e99ba8d33cce5c2b83f3130df5df9a566a9bf441180cd83d0",
+          "help": {
+            "online": "https://bendlabs.com"
+          },
+          "version": "0.8.4",
+          "architecture": "nrf52",
+          "archiveFileName": "bendlabs-nrf52-0.8.4.zip",
+          "boards": [
+            {
+              "name": "BMK nRF52"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "bendlabs",
+              "version": "5_2-2015q4",
+              "name": "gcc-arm-none-eabi"
+            },
+            {
+              "packager": "bendlabs",
+              "version": "9.4.0",
+              "name": "nrfjprog"
+            }
+          ],
+          "size": "7578660"
         }
       ]
     }
